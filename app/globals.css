@@ -214,6 +214,13 @@
 }
 
 .search-manufacturer__option {
-  @apply cursor-default select-none py-2 pl-10 pr-4;
+  color: gray; /* Default text color */
+  background-color: transparent; /* Default background color */
+  padding: 0.5em;
+}
+
+.search-manufacturer__option.active {
+  color: white; /* Text color for active option */
+  background-color: blue; /* Background color for active option */
 }
 /* END: search manufacturer styles */
